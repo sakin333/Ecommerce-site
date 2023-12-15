@@ -1,0 +1,15 @@
+.option-heading {
+    font-size: var(--smaller-font-size);
+    padding: .25rem 0;
+}
+
+.selected-option-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.selected-option {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
+}
