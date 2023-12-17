@@ -1,0 +1,51 @@
+.card-container {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 1rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: .5rem 3rem;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.text-container {
+    padding: .5rem 1rem;
+}
+
+.title-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    margin-bottom: var(--mb-1);
+    height: 100px;
+}
+
+.card-title {
+    color: var(--title-color-dark);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.card-category {
+    color: var(--text-color);
+    font-size: var(--tiny-font-size);
+}
+
+.card-price {
+    color: var(--title-color-dark);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}

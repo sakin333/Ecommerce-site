@@ -37,3 +37,28 @@
     border-radius: 0;
     text-align: center;
 }
+
+.button-addToCart-primary {
+    width: 4rem;
+    padding: .5rem 0;
+    background-color: var(--title-color);
+    color: var(--container-color);
+    border-radius: 0.3rem;
+    font-size: var(--tiny-font-size);
+}
+.button-addToCart-secondary {
+    width: 4rem;
+    padding: .5rem 0;
+    border: 1px solid var(--title-color);
+    border-radius: 0.3rem;
+    font-size: var(--tiny-font-size);
+}
+
+.button-addToCart-primary:hover {
+    background-color: var(--title-color-dark);
+}
+
+.button-addToCart-secondary:hover {
+    border-color: var(--title-color-dark);
+    font-weight: var(--font-semi-bold);
+}
